@@ -1,5 +1,5 @@
 # lens-cnn
-## Files for the generation of simulated strong gravitational lensing images (with fixed or varied lens model parameters) populated by dark matter substructures with mass defined by a mass distribution power law variable. These images can be used train and test two convolutional neural networks in series - the first predicting the number of substructures, and the second using these number predictions to predict the power law slope of the distribution of substructure masses. 
+Files for the generation of simulated strong gravitational lensing images (with fixed or varied lens model parameters) populated by dark matter substructures with mass defined by a mass distribution power law variable. These images can be used train and test two convolutional neural networks in series - the first predicting the number of substructures, and the second using these number predictions to predict the power law slope of the distribution of substructure masses. 
 
 ### Notes:
 - I've uploaded these as .py files, but I'd recommend opening into jupyter and splitting sections (marked by # ====...) into different cells and running separately to isolate any issues you might have (especially useful for the [n_cnn.py](n_cnn.py) and [a_cnn.py](a_cnn.py) files when testing)
