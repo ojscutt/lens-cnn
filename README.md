@@ -1,4 +1,6 @@
 # lens-cnn
+## Code used in paper Characterising Dark Matter Substructure in Gravitational Lens Galaxies with Deep Learning, DOI:[10.1137/22S1478033](https://doi.org/10.1137/22S1478033)
+
 Files for the generation of simulated strong gravitational lensing images (with fixed or varied lens model parameters) populated by dark matter substructures with mass defined by a mass distribution power law variable. These images can be used train and test two convolutional neural networks in series - the first predicting the number of substructures, and the second using these number predictions to predict the power law slope of the distribution of substructure masses. 
 
 ### Notes:
